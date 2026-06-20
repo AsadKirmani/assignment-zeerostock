@@ -15,7 +15,7 @@ model Student {
 model Mark {
   id        String     @id @default(uuid())
   studentId  String
-  subject   String     @unique
+  subject   String
   score     Int
   student   Student?   @relation(fields: [studentId], references: [id], onDelete: Cascade)
 

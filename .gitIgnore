@@ -28,6 +28,7 @@ out/
 
 prisma/db/
 dev.db
+*/src/generated/prisma
 
 .vite/
 frontend/.vite/

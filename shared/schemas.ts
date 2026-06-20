@@ -22,7 +22,7 @@ export const studentSchema = z.object({
     .transform((val) => val.trim().toUpperCase()),
   
   age: z
-    .union([z.string(), z.number(), z.null(), z.undefined()])
+    .union([z.string(), z.number(), z.null(), z.undefined()]).optional()
     .transform((val) => (val === "" || val === null || val === undefined ? null : Number(val)))
     .pipe(
       z.number().int().min(4, "Minimum age is 4").max(100, "Maximum age is 100").nullable()
