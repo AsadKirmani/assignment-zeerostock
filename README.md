@@ -264,6 +264,29 @@ npm run seed
 
 ---
 
+## Screenshots
+
+### Student List
+
+![Student List](./screenshots/student-list.png)
+
+
+### Student Details
+
+![Student Details](./screenshots/student-details.png)
+
+### Add Student
+
+![Add Student](./screenshots/add-student.png)
+
+### Edit Student
+
+![Edit Student](./screenshots/edit-student.png)
+
+### Search Student
+
+![Search Student](./screenshots/student-search.png)
+
 # Assumptions
 
 * Each student has a unique roll number.
